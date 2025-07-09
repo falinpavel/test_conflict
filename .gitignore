@@ -3,6 +3,7 @@ __pycache__/
 /.idea
 *.py[codz]
 *$py.class
+test_conflict.py~
 
 # C extensions
 *.so
