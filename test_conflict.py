@@ -1,9 +1,7 @@
 def greeting(name):
-    if name == "John":
-        print(f"Hello, dr. {name}")
-    else:
-        print("Hello! What's your name? Really?")
+    return print(f"Hello, dr. {name}, my friend, how are you?") if name == "John" else print(f"Hello! What's your name? Really?")
 
 
 greeting("John")
+greeting("Bob")
 greeting("Vasya")
